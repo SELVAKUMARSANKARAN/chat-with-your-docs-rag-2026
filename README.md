@@ -28,6 +28,4 @@ This starter uses a local small model to avoid API costs, a simple in-memory FAI
 
 No OCR for scanned PDFs; PDF table extraction is best-effort. Local in-memory indexes disappear on restart; no authentication, multi-user isolation, or persistent document storage. Local inference performance depends on hardware. Production would add object storage, durable vector DB, background ingestion jobs, auth, observability (latency, retrieval relevance, answer quality), regression evaluations, CI/CD, and deployment to managed containers with model hosting. Do not upload sensitive documents to a public demo without access controls.
 
-## AI-assisted development
 
-Review and replace this section with your own genuine account of which tools you used, what code you reviewed, what tests you ran, and what you would change with more time. Do not submit generic generated claims as personal experience.
